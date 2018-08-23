@@ -1,0 +1,137 @@
+/* ====================================
+Author: Nitin Bartwal
+button.css: Create beautiful buttons
+======================================= */
+
+/*
+====================
+GENERIC BUTTON CLASS
+====================
+*/
+.button {
+	font-size: 20px;
+	font-family: consolas;
+	text-align: center;
+	padding: 12px 30px;
+	border: none;
+	background-color: #3e3634;
+	color: #fff;
+}
+/*
+====================
+ BUTTON SHADOW
+====================
+*/
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* 
+==============
+COLORS CLASS
+==============
+*/
+.unique {
+	background-color: #e91e63;
+ }
+
+ .organic {
+	background-color: #4caf50;
+ }
+
+.warm {
+	background-color: #ffc107;
+}
+
+.sky {
+	background-color: #2196f3 ;
+}
+
+
+
+/*
+====================
+ROUNDED BUTTON CLASS
+====================
+*/
+.rounded {
+	border-radius: 4px;
+}
+
+/*
+====================
+OUTLINE BUTTON CLASS
+====================
+*/
+.unique-outline {
+	background-color: #fff;
+	border: 1px solid #e91e63;
+	color: #e91e63;
+}
+
+.organic-outline {
+	background-color: #fff;
+	border: 1px solid #4caf50;
+	color: #4caf50;
+}
+
+.warm-outline {
+	background-color: #fff;
+	border: 1px solid #ffc107;
+	color: #ffc107;
+}
+
+.sky-outline {
+	background-color: #fff;
+	border: 1px solid #2196f3;
+	color: #2196f3;
+}
+
+/*
+=============================
+OUTLINE INVERSE BUTTON CLASS
+=============================
+*/
+.unique-inverse {
+	background-color: #fff;
+	border: 1px solid #e91e63;
+	color: #e91e63;
+}
+
+.unique-inverse:hover {
+	background-color: #e91e63;
+	color: #fff;
+}
+
+.organic-inverse {
+	background-color: #fff;
+	border: 1px solid #4caf50;
+	color: #4caf50;
+}
+
+.organic-inverse:hover {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.warm-inverse {
+	background-color: #fff;
+	border: 1px solid #ffc107;
+	color: #ffc107;
+}
+
+.warm-inverse:hover {
+	background-color: #ffc107;
+	color: #fff;
+}
+
+.sky-inverse {
+	background-color: #fff;
+	border: 1px solid #2196f3;
+	color: #2196f3;
+}
+
+.sky-inverse:hover {
+	background-color: #2196f3;
+	color: #fff;
+}
