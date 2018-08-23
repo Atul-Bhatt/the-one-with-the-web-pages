@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quotidian Topic Selector</title>
+</head>
+<body id="body">
+	<p id="today" style="text-align: center;font-family: sans-serif;text-transform: uppercase"></p>
+<script>
+	var topics = ["linux","version control with git","networking 92","php Development","Software Development","CSS treehouse",
+	"javascript promises","networking for web developers","http and web servers","mit networking","perl scripting","client server communication",
+	"java 09","startup 20","the coding train","intro to algorithms","Data Structures"];
+	var pictures = ["linux.jpg","versioncontrolwithgit.jpg","networking92.jpg","phpdevelopment.jpg","softwaredevelopment.jpg","csstreehouse.jpg",
+	"javascriptpromises.png","networkingforwebdevelopers.jpg","httpandwebservers.jpg","mitnetworking.jpg","perlscripting.jpg",
+	"clientservercommunication.png","java09.jpg","startup20.jpg","thecodingtrain.jpg","introtoalgorithms.png","datastructures.png"];
+	var colors = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bisque","Black","BlanchedAlmond","Blue","BlueViolet","Brown","BurlyWood",
+	"CadetBlue","Chartreuse","Chocolate","Coral","CornflowerBlue","Cornsilk","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray",
+	"DarkGrey","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue",
+	"DarkSlateGray","DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue","DimGray","DimGrey","DodgerBlue","FireBrick","FloralWhite",
+	"ForestGreen","Fuchsia","Gainsboro","GhostWhite","Gold","GoldenRod","Gray","Grey","Green","GreenYellow","HoneyDew","HotPink","IndianRed","Indigo",
+	"Ivory","Khaki","Lavender","LavenderBlush","LawnGreen","LemonChiffon","LightBlue","LightCoral","LightCyan","LightGoldenRodYellow","LightGray",
+	"LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","LightYellow",
+	"Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue",
+	"MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MintCream","MistyRose","Moccasin","NavajoWhite","Navy","OldLace","Olive",
+	"OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PapayaWhip","PeachPuff","Peru","Pink","Plum",
+	"PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","SeaShell","Sienna","Silver","SkyBlue","SlateBlue",
+	"SlateGray","SlateGrey","Snow","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","White","WhiteSmoke","Yellow",
+	"YellowGreen"];
+	var randomNumber = Math.floor(Math.random()*topics.length);
+	var randomColor = Math.floor(Math.random()*colors.length);
+	var today = document.getElementById('today');
+	today.innerHTML = topics[randomNumber];
+	today.style.color = colors[randomColor];
+	today.style.fontSize = "100px";
+	document.getElementById('body').background = pictures[randomNumber];
+</script>
+</body>
+</html>
