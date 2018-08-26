@@ -1,0 +1,20 @@
+.list-group a{
+	display: block;
+	text-decoration: none;
+	color:grey;
+	font-size: 20px;
+	font-family: sans-serif;
+	border: 1px solid grey;
+	padding: 5px;
+	width: 15%;
+}
+.icon-bar a{
+	font-size: 60px;
+	color:grey;
+}
+.icon-bar a:hover{
+	color: cyan;
+}
+.list-group a:hover{
+	color: teal;
+}
